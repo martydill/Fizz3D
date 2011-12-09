@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fizz3d", "Fizz3d.vcproj", "{6FCAFBA3-FE25-4CDE-A581-7A0580911725}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fizz3d-server", "src\Fizz3d-server\Fizz3d-server.vcproj", "{246DDB97-1084-4B6E-B9A6-593375B5FFD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725} = {6FCAFBA3-FE25-4CDE-A581-7A0580911725}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fizz3d-client", "src\Fizz3d-client\Fizz3d-client.vcproj", "{5F754048-0FB9-4562-AA33-FB18736151CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725} = {6FCAFBA3-FE25-4CDE-A581-7A0580911725}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725}.Debug|Win32.Build.0 = Debug|Win32
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725}.Release|Win32.ActiveCfg = Release|Win32
+		{6FCAFBA3-FE25-4CDE-A581-7A0580911725}.Release|Win32.Build.0 = Release|Win32
+		{246DDB97-1084-4B6E-B9A6-593375B5FFD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{246DDB97-1084-4B6E-B9A6-593375B5FFD8}.Debug|Win32.Build.0 = Debug|Win32
+		{246DDB97-1084-4B6E-B9A6-593375B5FFD8}.Release|Win32.ActiveCfg = Release|Win32
+		{246DDB97-1084-4B6E-B9A6-593375B5FFD8}.Release|Win32.Build.0 = Release|Win32
+		{5F754048-0FB9-4562-AA33-FB18736151CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F754048-0FB9-4562-AA33-FB18736151CA}.Debug|Win32.Build.0 = Debug|Win32
+		{5F754048-0FB9-4562-AA33-FB18736151CA}.Release|Win32.ActiveCfg = Release|Win32
+		{5F754048-0FB9-4562-AA33-FB18736151CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

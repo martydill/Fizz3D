@@ -1,0 +1,15 @@
+Need:
+------------------
+smart pointers!
+command line arguments
+keyboard remapping
+entity management
+get rid of init() and destroy() functions
+trig functions in shaders
+
+Want:
+--------------------
+collision detection
+particle engine
+volumetric lighting
+shadow mapping

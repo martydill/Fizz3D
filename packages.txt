@@ -1,0 +1,5 @@
+libglu1-mesa-dev
+libdevil-dev
+libgl1-mesa-dev
+build-essential
+
