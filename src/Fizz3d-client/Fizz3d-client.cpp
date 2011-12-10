@@ -8,33 +8,12 @@
 
 using namespace std;
 
-std::string TCHARToString(const TCHAR* ptsz)
+int _tmain(int argc, char* argv[])
 {
-	if(ptsz == NULL)
-		return "";
+	CEngine engine(NULL);
+	engine.InitEngine();
+	engine.MainLoop();
 
-	int len = wcslen((wchar_t*)ptsz);
-	char* psz = new char[2*len + 1];
-	wcstombs(psz, (wchar_t*)ptsz, 2*len + 1);
-	std::string s = psz;
-	delete [] psz;
-	return s;
-}
-
-
-int _tmain(int argc, _TCHAR* argv[])
-{
-	try
-	{
-		CEngine engine(NULL);
-		engine.InitEngine();
-		engine.MainLoop();
-		engine.Destroy();
-	}
-	catch(exception e)
-	{
-		//MessageBox(NULL, e.what(), _T("Critical error"), MB_OK);
-	}
 	return 0;
 }
 

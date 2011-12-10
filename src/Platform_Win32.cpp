@@ -9,17 +9,17 @@
 #include "Platform.h"
 
 
-extern int EngineMain(char*);
-
-
-
-// Entry point
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char* cmdLineArgs, int nCmdShow)
-{
-	EngineMain(cmdLineArgs);
-	return 0;
-}
-
+//extern int EngineMain(char*);
+//
+//
+//
+//// Entry point
+//int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char* cmdLineArgs, int nCmdShow)
+//{
+//	EngineMain(cmdLineArgs);
+//	return 0;
+//}
+//
 
 
 // Platform namespace contains all of our functions

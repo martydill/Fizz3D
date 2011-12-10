@@ -70,6 +70,17 @@ CEngine::CEngine(char* cmdLineArgs) :
 // CEngine destructor
 CEngine::~CEngine()
 {
+	Trace("Shutting down engine");
+	
+	// Free the shader data
+	ShaderParser::freeShaders();
+
+	if(pKeyboard != NULL)
+		pKeyboard->destroy();
+
+	if(pMouse != NULL)
+		pMouse->destroy();
+
 	delete pRenderer;
 	delete pKeyboard;
 	delete pMouse;
@@ -176,23 +187,6 @@ int CEngine::LoadMap(string fileName)
 	pMap->readTextures(pTextureFactory);
 	
 	pGfxDriver->postProcessMap(pMap);
-
-	return 0;
-}
-
-// Shuts everything down
-int CEngine::Destroy(void)
-{
-	Trace("Shutting down engine");
-	
-	// Free the shader data
-	ShaderParser::freeShaders();
-
-	if(pKeyboard != NULL)
-		pKeyboard->destroy();
-
-	if(pMouse != NULL)
-		pMouse->destroy();
 
 	return 0;
 }

@@ -373,19 +373,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath=".\src\Main.cpp"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						UsePrecompiledHeader="2"
-						PrecompiledHeaderThrough="Fizz3d.h"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
 				RelativePath=".\src\Math.cpp"
 				>
 				<FileConfiguration

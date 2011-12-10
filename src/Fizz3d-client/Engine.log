@@ -2,5 +2,36 @@ Log opened.
 [Engine] Initializing engine ...
 [Engine] Reading configuration data
 [Config] Loading configuration file Config.cfg
-[Engine] *** Critical Error - Unable to open configuration file!
+[Config] Finished reading config file
+[Engine] Creating window
+[Win32Window] Creating and registering Window Class
+[Win32Window] Creating Window
+[Win32Window] Resizing window
+[Engine] Creating graphics driver
+[GLDriver] Initializing OpenGL graphics driver
+[GLDriver] Acquiring device context
+[GLDriver] Finding pixel format
+[GLDriver] Setting pixel format
+[GLDriver] Acquiring rendering context
+[GLDriver] Setting current GL window
+[GLDriver] Getting OpenGL driver info ...
+[GLDriver] OpenGL Vendor: Intel
+[GLDriver] OpenGL Renderer: Intel(R) HD Graphics Family
+[GLDriver] OpenGL Version: 3.0.0 - Build 8.15.10.2279
+[Engine] Creating texture factory.
+[Engine] Creating renderering engine
+[Engine] Initializing mouse
+[DX8Mouse] Creating mouse device
+[DX8] Initializing DirectInput8
+[DX8Mouse] Setting mouse data format
+[DX8Mouse] Setting mouse cooperative level
+[Engine] Initializing keyboard
+[DX8Keyboard] Creating keyboard device
+[DX8Keyboard] Setting keyboard data format
+[DX8Keyboard] Setting keyboard cooperative level
+[Engine] Audio disabled.
+[Engine] Initializing DevIL
+[Engine] Engine inititialization finished.
+[ShaderParser] Loading shaders ...
+[Engine] *** Critical Error - Could not load shader script scripts/models.shader
 Log closed.

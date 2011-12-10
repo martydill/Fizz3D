@@ -90,7 +90,7 @@
 			<Tool
 				Name="VCPostBuildEventTool"
 				Description="Copying DLLs"
-				CommandLine="copy $(SolutionDir)lib\*.dll $(OutDir)"
+				CommandLine="copy $(SolutionDir)lib\*.dll $(OutDir)&#x0D;&#x0A;copy $(ProjectDir)\Config.cfg $(OutDir)"
 			/>
 		</Configuration>
 		<Configuration
