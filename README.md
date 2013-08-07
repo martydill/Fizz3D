@@ -8,10 +8,10 @@ In order to use it, you will need to extract the maps, models, scripts, and text
 
 Screenshots:
 
-[!Screenshot1](/screenshot1.png "Screenshot 1")
-[!Screenshot2](/screenshot2.png "Screenshot 2")
-[!Screenshot3](/screenshot3.png "Screenshot 3")
-[!Screenshot4](/screenshot4.png "Screenshot 4")
+![Screenshot1](/screenshot1.png "Screenshot 1")
+![Screenshot2](/screenshot2.png "Screenshot 2")
+![Screenshot3](/screenshot3.png "Screenshot 3")
+![Screenshot4](/screenshot4.png "Screenshot 4")
 
 
 
